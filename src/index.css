@@ -1,0 +1,66 @@
+@import "asset/css/spinkit.min.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  height: auto !important; /* real browsers */
+  height: 100%; /* IE6: treaded as min-height*/
+
+  min-height: 100%; /* real browsers */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+input:-internal-autofill-selected {
+  background-color: white !important;
+}
+
+.Mui-error {
+  border: solid 2px #db4437 !important;
+  background-color: rgba(219, 68, 55, 0.15) !important;
+}
+
+button.Mui-disabled {
+  opacity: 0.3;
+}
+
+@font-face {
+  font-family: Playball;
+  src: url(asset/fonts/Playball.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Harabara;
+  src: url(asset/fonts/Harabara.otf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.sk-flow {
+  opacity: 0.6;
+  height: 15px;
+}
+
+.sk-flow .sk-flow-dot {
+  width: 25%;
+  height: 70%;
+}
